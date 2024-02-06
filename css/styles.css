@@ -38,7 +38,8 @@ h3{
 }
 p{
     margin-top: 0;
-}@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1024px) {
     body {
         font-size: 1.8rem;
     }
@@ -298,4 +299,16 @@ background: #ec3000;
     .plan__description {
         font-size: 1.7rem;
     }
+}
+.media {
+    display: flex;
+}
+.media__title {
+    margin-top: 0;
+}
+.media__body {
+    margin: 0 2rem;
+}
+.media__image {
+    margin-top: 1rem;
 }
